@@ -63,3 +63,15 @@
     font-weight: 400;
     font-style: normal;
   }
+
+  /* Scroll Settings */
+  .scroll-container {
+    max-height: 100vh;
+    overflow-y: auto;
+    scroll-snap-type: y proximity;
+  }
+
+  .scroll-container > * {
+    min-height: 100vh;
+    scroll-snap-align: start;
+  }
