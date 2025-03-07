@@ -1,49 +1,72 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-        <title>Tim & Marina's Wedding</title>
-        <meta name="description" content="Join us in celebrating the wedding of Tim & Marina, who are tying the knot in June, 2025. We can't wait to see you there!">
-        <link rel="icon" type="image/png" href="./favicon.png">
-        <link rel="apple-touch-icon" href="./favicon.png">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <meta name="msapplication-config" content="none">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./index.css">
-    </head>
-    <body>
-        <div class="scroll-container">
-            <section>
-                <h1>Jumbotron Hero</h1>
-                <p>Floating animation that peeks in (maybe goes back to the side or goes all the way across)</p>
-                <p>Show baby pictures?</p>
-                <hr />
-            </section>
-            <section>
-                <h1>Wedding Information</h1>
-                <p>Time & Place</p>
-                <p>Travel Info</p>
-                <hr />
-            </section>
-            <section>
-                <h1>RSVP Form</h1>
-                <p>Connect form to google sheets? or more advanced database with zapier?</p>
-                <hr />
-            </section>
-            <section>
-                <h1>About Us Section</h1>
-                <p>Short story and intro and info</p>
-                <hr />
-            </section>
-            <section>
-                <h1>Registry</h1>
-                <p>Donations or Honeymoon donations</p>
-                <hr />
-            </section>
-        </div>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Tim & Marina's Wedding</title>
+    <meta name="description" content="Join us in celebrating the wedding of Tim & Marina, who are tying the knot in June, 2025. We can't wait to see you there!">
+    <link rel="icon" type="image/png" href="./favicon.png">
+    <link rel="apple-touch-icon" href="./favicon.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-config" content="none">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="scroll-container">
+        <section class="jumbotron">
+            <div class="jumbotron__content">
+                <h1 class="title">Tim & Marina's <br/>Wedding</h1>
+                <p>We can't wait to celebrate with you!</p>
+            </div>
+            <img class="mobile jumbotron__img" src="./placeholder-mobile.jpg" alt="Tim & Marina in their dorky era" width="2080" height="1825" loading="eager" />
+            <img class="desktop jumbotron__img" src="./placeholder.jpg" alt="Tim & Marina in their dorky era" width="2560" height="1659" loading="eager" />
+            <div class="jumbotron__overlay"></div>
+        </section>
+        <section class="details">
+            <h2 class="subtitle">✨ Here are the deets! ✨</h2>
+            <ul class="details__list">
+                <li class="details__item">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path stroke="#fff" stroke-linecap="round" stroke-width="1.5" d="M21 13.162c0-1.043 0-3.565-.283-3.958-.283-.393-.778-.558-1.768-.888L18 8m3 8.829c0 1.29 0 1.936-.34 2.351-.115.14-.255.26-.413.35-.465.267-1.102.16-2.375-.051-1.256-.21-1.884-.314-2.507-.262-.219.018-.436.05-.65.097-.61.134-1.185.421-2.334.996-1.5.75-2.25 1.125-3.048 1.24-.24.035-.483.052-.726.052-.807-.002-1.595-.265-3.172-.79l-.384-.128c-.99-.33-1.485-.495-1.768-.888C3 19.403 3 18.88 3 17.838V17m0-4.092c0-1.659 0-2.488.488-2.934a1.5 1.5 0 0 1 .281-.203c.515-.287 1.197-.11 2.454.304"/><path stroke="#fff" stroke-linecap="round" stroke-width="1.5" d="M17.25 11.251c.486-1.157.75-2.39.75-3.55C18 4.551 15.314 2 12 2S6 4.552 6 7.7c0 3.124 1.915 6.769 4.903 8.072a2.755 2.755 0 0 0 2.194 0c.954-.416 1.8-1.071 2.507-1.872"/><circle cx="12" cy="8" r="2" stroke="#fff" stroke-width="1.5"/></svg></div>
+                    <p><span class="subheader">Where:</span> Boulder Creek <em>by</em> Wedgewood Weddings <br /> Address: 38470 Boulder Canyon Dr, Boulder, CO 80302 <br />
+                        <a class="btn btn--primary" target="_blank" href="https://www.google.com/maps?gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMgoIAxAAGIAEGKIEMgoIBBAAGIAEGKIEMgcIBRAAGO8FMgYIBhBFGDzSAQg3MjA4ajBqN6gCALACAA&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=Kem4DGnj62uHMaDhSRP7TbDk&daddr=38470+Boulder+Canyon+Dr,+Boulder,+CO+80302">Show me directions 🗺️</a>
+                    </p>
+                </li>
+                <li class="details__item">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path stroke="#fff" stroke-linecap="round" stroke-width="1.5" d="M2 12c0 5.523 4.477 10 10 10 1.821 0 3.53-.487 5-1.338M12 2c5.523 0 10 4.477 10 10 0 1.821-.487 3.53-1.338 5"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 9v4h4"/><path stroke="#fff" stroke-dasharray="0.5 3.5" stroke-linecap="round" stroke-width="1.5" d="M17 20.662A9.955 9.955 0 0 1 12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10c0 1.821-.487 3.53-1.338 5"/></svg></div>
+                    <p><span class="subheader">When:</span> June 7th, 2025 <em>at</em> 6:00pm MST</p>
+                </li>
+                <li class="details__item">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 325.635 325.635"><path d="M324.427 80.302c-4.756-23.868-23.145-44.389-54.655-60.995-2.215-1.167-4.901-1.696-7.011-.347-1.264.808-2.267 1.775-3.821 5.336-.899 2.513-10.063 24.309-78.406 98.824-8.037 8.762-15.285 17.003-22.293 24.972-18.632 21.183-33.348 37.915-47.27 46.503-7.434 4.586-14.329 6.912-20.494 6.912-6.395 0-11.849-2.524-16.212-7.504a7.499 7.499 0 0 0-6.903-2.451c-4.531.773-44.558 8.275-58.502 30.702-9.606 15.451-8.845 27.48-8.845 27.698 0 5.697 1.786 18.617 8.478 30.906 8.352 15.335 21.442 24.583 37.856 26.599.303.038 95.595 0 95.912 0 6.195 0 27.086-2.467 42.739-61.783 6.292-23.842 16.333-62.579 49.25-86.034 2.237 2.989 4.542 11.285 4.72 20.11.013.869 1.288 87.297 2.716 120.52.173 4.013 3.477 7.186 7.493 7.186h21.66a7.508 7.508 0 0 0 5.34-2.242 7.505 7.505 0 0 0 2.16-5.371c-.341-24.681-.295-92.37 3.961-108.962 8.078-31.494 26.496-51.989 26.824-52.35.038-.041.064-.087.101-.129.047-.054.102-.101.148-.157.875-1.056 21.375-26.222 15.054-57.943zM142.331 292.444c-.277-.05-.208-.01-.628-.01h-93.96c-15.88-2.137-24.372-13.537-28.692-24.253 19.128 1.843 44.722 2.922 70.183 2.922h.002c22.898 0 43.885-.881 59.091-2.481 6.07-.639 11.053-1.366 15.165-2.182-8.822 24.21-19.743 25.892-21.161 26.004zm125.439-105.29c-4.721 18.404-4.673 82.903-4.506 105.293h-6.87c-1.304-36.822-2.414-112.109-2.426-112.941-.068-3.84-.755-18.133-6.868-27.527 7.585-3.652 24.019-10.543 41.789-11.581-6.844 10.144-15.864 26.266-21.119 46.756zm32.293-61.627a84.071 84.071 0 0 0-6.72-.266c-30.043 0-56.992 15.323-58.073 15.946-45.206 25.566-57.942 74.43-64.785 100.682-.752 2.884-1.421 5.453-2.059 7.724-5.794 2.77-30.355 6.49-79.193 6.49-26.929 0-54.55-1.218-73.51-3.273-1.975-2.554-.897-11.878 5.915-22.721 7.948-12.654 32.022-20.302 44.469-23.026 6.759 6.181 15.102 9.423 24.371 9.422 8.987-.001 18.532-3.077 28.368-9.145 15.83-9.765 31.2-27.24 50.658-49.363 6.959-7.912 14.154-16.092 22.085-24.74 52.055-56.755 71.116-84.279 78.092-96.845 23.022 13.519 36.468 29.196 40.007 46.676 3.852 19.028-5.216 35.724-9.625 42.439z"/></svg></div>
+                    <p><span class="subheader">What to wear:</span> Cocktail Attire & Dancing Shoes</p>
+                </li>
+                <li class="details__item">
+                    <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path fill="#fff" d="M19 18h.75H19ZM5 14.584h.75a.75.75 0 0 0-.45-.687l-.3.687Zm14 0-.3-.687a.75.75 0 0 0-.45.687H19ZM15.75 7a.75.75 0 0 0 1.5 0h-1.5Zm-9 0a.75.75 0 0 0 1.5 0h-1.5ZM14 21.25a.75.75 0 0 0 0 1.5v-1.5Zm-4 1.5a.75.75 0 0 0 0-1.5v1.5ZM7 4.25A5.75 5.75 0 0 0 1.25 10h1.5A4.25 4.25 0 0 1 7 5.75v-1.5Zm10 1.5A4.25 4.25 0 0 1 21.25 10h1.5A5.75 5.75 0 0 0 17 4.25v1.5Zm-8 15.5c-.964 0-1.612-.002-2.095-.067-.461-.062-.659-.169-.789-.3l-1.06 1.062c.455.455 1.022.64 1.65.725.606.082 1.372.08 2.294.08v-1.5ZM4.25 18c0 .922-.002 1.688.08 2.294.084.628.27 1.195.725 1.65l1.061-1.06c-.13-.13-.237-.328-.3-.79-.064-.482-.066-1.13-.066-2.094h-1.5Zm14 0c0 .964-.002 1.612-.067 2.095-.062.461-.169.659-.3.789l1.062 1.06c.455-.455.64-1.022.725-1.65.082-.606.08-1.372.08-2.294h-1.5ZM15 22.75c.922 0 1.688.002 2.294-.08.628-.084 1.195-.27 1.65-.726l-1.06-1.06c-.13.13-.328.237-.79.3-.482.064-1.13.066-2.094.066v1.5Zm-8-17c.214 0 .423.016.628.046l.219-1.484A5.792 5.792 0 0 0 7 4.25v1.5Zm5-4.5a5.252 5.252 0 0 0-4.973 3.563l1.42.482A3.752 3.752 0 0 1 12 2.75v-1.5ZM7.027 4.813A5.245 5.245 0 0 0 6.75 6.5h1.5c0-.423.07-.828.198-1.205l-1.42-.482ZM17 4.25c-.287 0-.57.021-.847.062l.22 1.484A4.29 4.29 0 0 1 17 5.75v-1.5Zm-5-1.5a3.752 3.752 0 0 1 3.552 2.545l1.42-.482A5.252 5.252 0 0 0 12 1.25v1.5Zm3.552 2.545c.128.377.198.782.198 1.205h1.5c0-.589-.097-1.156-.277-1.687l-1.42.482ZM5.75 18v-3.416h-1.5V18h1.5Zm-.45-4.103A4.251 4.251 0 0 1 2.75 10h-1.5a5.751 5.751 0 0 0 3.45 5.271l.6-1.374Zm12.95.687V18h1.5v-3.416h-1.5Zm3-4.584a4.251 4.251 0 0 1-2.55 3.897l.6 1.374A5.751 5.751 0 0 0 22.75 10h-1.5Zm-5.5-3.5V7h1.5v-.5h-1.5Zm-9 0V7h1.5v-.5h-1.5ZM15 21.25h-1v1.5h1v-1.5Zm-5 0H9v1.5h1v-1.5Z"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 18h8m6 0h-2"/></svg></div>
+                    <p><span class="subheader">What to expect:</span> Appetizers, dinner, open bar & dancing 🍽️</p>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h1>RSVP Form</h1>
+            <p>Connect form to google sheets? or more advanced database with zapier?</p>
+            <hr />
+        </section>
+        <section>
+            <h1>About Us Section</h1>
+            <p>Short story and intro and info</p>
+            <hr />
+        </section>
+        <section>
+            <h1>Registry</h1>
+            <p>Donations or Honeymoon donations</p>
+            <hr />
+        </section>
+    </div>
+</body>
+
 </html>
