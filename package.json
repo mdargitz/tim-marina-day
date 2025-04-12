@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "dev": "autoreload-server -w '**/**.{html,css,js}' -d ./ -p 8080"
+  },
   "devDependencies": {
     "simple-autoreload-server": "^0.2.15"
   }
