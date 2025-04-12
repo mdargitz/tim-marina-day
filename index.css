@@ -164,6 +164,16 @@ a:focus {
     background: var(--color-accent-2);
 }
 
+.btn--icon {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+
+.btn--icon > :not(:first-child) {
+    margin-left: 5px;
+}
+
 
 /* Typography */
 
