@@ -24,8 +24,8 @@
                 <h1 class="title">Tim & Marina's <br/>Wedding</h1>
                 <p>We can't wait to celebrate with you!</p>
             </div>
-            <img class="mobile jumbotron__img" src="./placeholder-mobile.jpg" alt="Tim & Marina in their dorky era" width="2080" height="1825" loading="eager" />
-            <img class="desktop jumbotron__img" src="./placeholder.jpg" alt="Tim & Marina in their dorky era" width="2560" height="1659" loading="eager" />
+            <img class="mobile jumbotron__img" src="./jumbotron.webp" alt="Tim & Marina in their dorky era" width="2080" height="1825" loading="eager" />
+            <img class="desktop jumbotron__img" src="./jumbotron.webp" alt="Tim & Marina in their dorky era" width="2560" height="1659" loading="eager" />
             <div class="jumbotron__overlay"></div>
         </section>
         <section class="details">
@@ -67,8 +67,8 @@
                     <script type="text/javascript" src="https://timandmarinaday.rsvpify.com/embed"></script>
                 </div>
             </div>
-            <img class="mobile rsvp__img" src="./placeholder-mobile.jpg" alt="Tim & Marina in their dorky era" width="2080" height="1825" loading="eager" />
-            <img class="desktop rsvp__img" src="./placeholder.jpg" alt="Tim & Marina in their dorky era" width="2560" height="1659" loading="eager" />
+            <img class="mobile rsvp__img" src="./rsvpbg.webp" alt="Tim & Marina in their dorky era" width="2080" height="1825" loading="eager" />
+            <img class="desktop rsvp__img" src="./rsvpbg.webp" alt="Tim & Marina in their dorky era" width="2560" height="1659" loading="eager" />
         </section>
         <section class="about">
             <div class="about__wrap">
@@ -90,12 +90,14 @@
                     <li class="about__item"><strong>June 2025:</strong> We're getting married and you're invited!</li>
                 </ul>
 
-                <div class="about__medias">
-                    <img class="about__media js-about-media" src="./placeholder-mobile.jpg" alt="Tim & Marina in their dorky era" width="2080" height="1825" loading="eager" />
-                    <img class="about__media js-about-media" src="./placeholder.jpg" alt="Tim & Marina in their dorky era" width="2560" height="1659" loading="eager" />
-                    <img class="about__media js-about-media" src="./venue-2.jpg" alt="Photograph of Wedgewood Wedding Venue" width="640" height="853" loading="lazy" />
-                    <img class="about__media js-about-media" src="./venue-1.webp" alt="Photograph of Wedgewood Wedding Venue" width="480" height="400" loading="lazy" />
-                </div>
+                <swiper-container class="about__medias" autoplay="true" cssMode="true" effect="fade" loop="true" navigation="true">
+                    <swiper-slide><img class="about__media js-about-media" src="./slider-1.webp" alt="Tim & Marina in their dorky era" width="2080" height="1825" loading="lazy" /></swiper-slide>
+                    <swiper-slide><img class="about__media js-about-media" src="./slider-2.webp" alt="Tim & Marina in their dorky era" width="2560" height="1659" loading="lazy" /></swiper-slide>
+                    <swiper-slide><img class="about__media js-about-media" src="./slider-3.webp" alt="Photograph of Wedgewood Wedding Venue" width="640" height="853" loading="lazy" /></swiper-slide>
+                    <swiper-slide><img class="about__media js-about-media" src="./slider-4.webp" alt="Photograph of Wedgewood Wedding Venue" width="480" height="400" loading="lazy" /></swiper-slide>
+                    <swiper-slide><img class="about__media js-about-media" src="./slider-5.webp" alt="Photograph of Wedgewood Wedding Venue" width="480" height="400" loading="lazy" /></swiper-slide>
+                    <swiper-slide><img class="about__media js-about-media" src="./slider-6.webp" alt="Photograph of Wedgewood Wedding Venue" width="480" height="400" loading="lazy" /></swiper-slide>
+                </swiper-container>
             </div>
         </section>
         <section class="registry">
@@ -105,7 +107,7 @@
     </div>
 </body>
 
-<script defer>
+<!-- <script defer>
     // Rotate about media opacity
     // Constants
     const aboutMediaNodeList = document.querySelectorAll('.js-about-media');
@@ -151,6 +153,8 @@
     const observer = new IntersectionObserver(callback, options);
 
     observer.observe(target);
-</script>
+</script> -->
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 
 </html>
