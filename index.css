@@ -506,18 +506,15 @@ swiper-container {
     --swiper-theme-color: var(--color-accent-2);
 }
 
-
-/* Classes uses with javascript for animation effect */
-
-@keyframes mediaOpacity {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+/* Registry */
+.registry {
+    padding: var(--padding-mobile) 0 var(--padding-mobile) 0;
+    text-align: center;
 }
 
-.js-media-animate {
-    animation: mediaOpacity 2s ease-in-out alternate-reverse;
+.registry__wrap {
+    width: 90%;
+    max-width: 1080px;
+    padding: var(--padding-mobile) 0 var(--padding-mobile) 0;
+    margin: 0 auto;
 }

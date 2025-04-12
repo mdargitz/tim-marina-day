@@ -96,13 +96,13 @@
                     </p>
                 </div>
                 <ul class="about__list">
-                    <li class="about__item"><strong>October 2017:</strong> We became FaceBook Official.</li>
-                    <li class="about__item"><strong>March 2018:</strong> We moved into an apartment together by the train tracks in Louisville, Colorado.</li>
-                    <li class="about__item"><strong>June 2019:</strong> Winri the Couch Princess & Gutter Girl stole our hearts and filled our house with dog hair forevermore.</li>
-                    <li class="about__item"><strong>October 2020:</strong> Calcifer the Little Mister & Trouble Bean moved in and ensured we would never leave food out again.</li>
-                    <li class="about__item"><strong>March 2021:</strong> We bought our home in Longmont Colorado and fell in love with the town.</li>
-                    <li class="about__item"><strong>December 2023:</strong> Tim proposed to Marina at The Bitter Bar, where it all began.</li>
-                    <li class="about__item"><strong>June 2025:</strong> We're getting married and you're invited!</li>
+                    <li class="about__item"><p><strong>October 2017:</strong> We became Facebook Official.</p></li>
+                    <li class="about__item"><p><strong>March 2018:</strong> We moved into an apartment together by the train tracks in Louisville, Colorado.</p></li>
+                    <li class="about__item"><p><strong>June 2019:</strong> Winri the Couch Princess & Gutter Girl stole our hearts and filled our house with dog hair forevermore.</p></li>
+                    <li class="about__item"><p><strong>October 2020:</strong> Calcifer the Little Mister & Trouble Bean moved in and ensured we would never leave food out again.</p></li>
+                    <li class="about__item"><p><strong>March 2021:</strong> We bought our home in Longmont Colorado and fell in love with the town.</p></li>
+                    <li class="about__item"><p><strong>December 2023:</strong> Tim proposed to Marina at The Bitter Bar, where it all began.</p></li>
+                    <li class="about__item"><p><strong>June 2025:</strong> We're getting married and you're invited!</p></li>
                 </ul>
 
                 <swiper-container class="about__medias" autoplay="true" cssMode="true" effect="fade" loop="true" navigation="true">
@@ -115,59 +115,13 @@
             </div>
         </section>
         <section class="registry">
-            <h2 class="subtitle">Registry</h2>
-            <p>Your presence is enough of a present for us!</p>
+            <div class="registry__wrap">
+                <h2 class="subtitle registry__subtitle">Registry</h2>
+                <div class="registry__placeholder"><p>Coming soon!</p></div>
+            </div>
         </section>
     </div>
 </body>
-
-<!-- <script defer>
-    // Rotate about media opacity
-    // Constants
-    const aboutMediaNodeList = document.querySelectorAll('.js-about-media');
-    const displayTimeInMs = 1000;
-    const transitionTimeInMs = 500;
-
-    // Method to apply opacity animation
-    const timeoutAnimationMethod = (element, index) => {
-        console.log(index);
-        element.classList.add('js-media-animate');
-    }
-
-    // Apply CSS transitions when elements in view
-    // Apply 'is-active' class for X seconds, then remove
-    // Delay based on index of node
-    const target = document.querySelector('.js-about-media');
-
-    const options = {
-        root: null,
-        rootMargin: '0px',
-        threshold: 0.5 // Trigger when 50% of the target is visible
-    };
-
-    const intervalIds = [];
-    const callback = (entries, observer) => {
-
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                aboutMediaNodeList.forEach((element, index) => {
-                    const intervalId = setTimeout(timeoutAnimationMethod, index * 2000, element, index);
-                    intervalIds.push(intervalId);
-                })
-            } else {
-                // Element is not visible, remove intervals
-                intervalIds.forEach(intervalId => {
-                    clearTimeout(intervalId);
-                });
-                intervalIds.length = 0; // Mutate array and clear it
-            }
-        });
-    };
-
-    const observer = new IntersectionObserver(callback, options);
-
-    observer.observe(target);
-</script> -->
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 
