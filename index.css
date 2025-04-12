@@ -1,4 +1,4 @@
-/* Reset from https://www.joshwcomeau.com/css/custom-css-reset/ */
+    /* Reset from https://www.joshwcomeau.com/css/custom-css-reset/ */
 
 *,
 *::before,
@@ -72,8 +72,8 @@ h6 {
     --breakpoint-tablet: 1080px;
     --color-black: #353447;
     --color-white: #fff;
-    --color-accent: #7bbedd;
-    --color-accent-2: #669cb6;
+    --color-accent: #aeb79d;
+    --color-accent-2: #868f75;
     --padding-mobile: 40px;
     --padding-desktop: 60px;
     --content-width: 1080px;
